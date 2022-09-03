@@ -1,0 +1,53 @@
+.testtask {
+  font-weight: 700;
+}
+
+body {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.flex-container {
+  margin: 1% 12% 1% 12%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container-2 {
+  display: flex;
+  justify-content: space-between;
+  border: solid black;
+  border-radius: 1rem;
+  background-color: aliceblue;
+  margin: 0% 26% 1% 24%;
+}
+
+input[type="text"] {
+  border-radius: 1rem;
+  font-size: 25px;
+  padding: 12px 24px;
+  border: black solid;
+  margin: 0px px;
+  width: 850px;
+}
+
+button[type="submit"] {
+  vertical-align: bottom;
+  border-radius: 1rem;
+  align-items: right;
+  border: black solid;
+  font-size: 23px;
+}
+button[type="button"] {
+  border-radius: 15rem;
+  align-items: center;
+}
+p {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+}
+.background {
+  background-color: beige;
+}
